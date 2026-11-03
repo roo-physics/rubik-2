@@ -1,0 +1,119 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Segredos / chaves de sessão
+.env*
+.sesskey
+
+# Misc
+.DS_Store
+.thumbs.db
+
+# Banco de dados local (estado de runtime, não versionar)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+considerations.md
+
+# Banco montado pelo Docker/local (estado de runtime)
+data/
+
+.opencode/
+
+
+# Files and directories that Git should ignore. This is the standard Python
+# template covering bytecode, build artifacts, virtual environments, and IDE
+# settings. See https://git-scm.com/docs/gitignore for syntax reference.
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Secrets
+db/password.txt
+
+
+
+**/.DS_Store
+**/__pycache__
+**/.venv
+**/.classpath
+**/.dockerignore
+**/.env
+**/.git
+**/.gitignore
+**/.project
+**/.settings
+**/.toolstarget
+**/.vs
+**/.vscode
+**/*.*proj.user
+**/*.dbmdl
+**/*.jfm
+**/bin
+**/charts
+**/docker-compose*
+**/compose.y*ml
+**/Dockerfile*
+**/node_modules
+**/npm-debug.log
+**/obj
+**/secrets.dev.yaml
+**/values.dev.yaml
+LICENSE
+README.md
