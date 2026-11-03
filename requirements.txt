@@ -1,2 +1,5 @@
-fastapi==0.115.12
-uvicorn==0.34.3
+python-fasthtml
+sqlmodel
+pwdlib[argon2]
+python-dotenv
+uvicorn[standard]
