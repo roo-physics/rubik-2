@@ -5,7 +5,7 @@ from sqlmodel import Session, SQLModel, create_engine
 
 import models  # noqa: F401  registers table classes on the metadata
 
-# DB_PATH: em produção (Docker/App Platform) aponta para o volume (/data);
+# DB_PATH: em produção (Docker) aponta para o volume (/app/data);
 # sem a env, comportamento antigo — database.db ao lado do código.
 DB_PATH = Path(os.getenv("DB_PATH") or Path(__file__).resolve().parent / "database.db")
 

@@ -13,6 +13,9 @@ services:
       context: .
     ports:
       - 8000:8000
+    environment:
+      - DB_PATH=/app/data/app.db
+      - SECRET_KEY=${SECRET_KEY:?}
     volumes:
       - db-data:/app/data
     restart: unless-stopped
